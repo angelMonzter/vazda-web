@@ -2,7 +2,7 @@
 
 Pagina Oficial de Maquilas y Maquinados Vazda.
 
-## Deployment
+## Desarrollo
 
 Esta web fue desarrollada con el fin de dar publicidad y contar con una area de administracion de pedidos.
 
@@ -15,4 +15,4 @@ Esta web fue desarrollada con el fin de dar publicidad y contar con una area de 
 
 * **Angel Efren Albarran Velazquez** 
 
-[Para cualquier duda o aclaracion](http://angel-velazquez.atspace.eu/)
+Para cualquier duda o aclaracion [Portafolio](http://angel-velazquez.atspace.eu/)
