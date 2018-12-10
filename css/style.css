@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+
+/* Add a black background color to the top navigation */
+header{
+    background: url(../img/banner.JPG);
+    background-size: cover;
+    min-height: 650px;
+}
+.topnav {
+    overflow: hidden;
+}
+.img{
+    pointer-events: none;
+}
+.topnav img{
+    width: 190px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-family: 'Artifika', serif;
+    text-align: center;
+    color: white;
+    float: left;
+    display: block;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a.menu{
+    padding: 45px 0px 0px 30px;
+}
+ /*Change the color of links on hover */
+.topnav a:hover {
+    color: #e83541;
+    transition: all ease .3s;
+}
+.topnav a.icon:hover {
+    color: #e83541;
+}
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+    font-size: 25px;
+} 
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 683px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding: 30px 30px;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 683px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px; 
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 17px;
+  }
+  .topnav.responsive a.menu{
+    transition: ease .4s;
+  }
+}
+@media screen and (max-width: 683px) {
+    .topnav img{
+        width: 150px;
+    }
+}
+
+/*banner*/
+div.banner{
+    margin-top: 200px;
+}
+div.banner div.contenido-slider{
+    background-color: rgba(0,0,0,0.5);
+    width: 70%;
+    color: white;
+}
+div.contenido-slider p{
+    font-size: 20px;
+    padding: 10px ;
+    color: white;
+}
+div.contenido-slider h2, div.contenido-slider p{
+    font-family: 'Artifika', serif;
+}
+@media screen and (max-width: 660px) {
+    div.banner{
+        margin-top: 140px;
+    }
+    div.banner div.contenido-slider{
+        width: 70%;
+    }
+    div.contenido-slider p{
+        font-size: 15px;
+        padding: 8px;
+    }
+}
+/*banner*/
+
+/*header*/
+
+
+/*body*/
+h2{
+    text-align: center;
+    font-family: 'Artifika', serif;
+}
+p{
+    text-align: justify;
+    color: #444444;
+}
+h5{
+  font-family: 'Artifika', serif;
+}
+div.mision h4, div.vision h4, div.calidad h4{
+  font-family: 'Artifika', serif;
+  padding-top: 45px;
+}
+hr{
+    background-color: #e83541;
+    height: 1px;
+    border: 0px;
+}
+/*nosotros*/
+p.satisfaccion{
+  text-align: center;
+}
+/*nosotros*/
+
+/*instalaciones*/
+div.instalaciones p{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 650px) {
+ div.instalaciones p{
+    margin-bottom: 10px;
+  } 
+}
+/*instalaciones*/
+
+/*parallax*/
+div.img-parallax{
+    position: relative;
+    height: auto;
+}
+div.efect1::before{
+    background-image: url(../img/bg2.JPG);
+    content: '';
+}
+div.img-parallax .contenido{
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    height: 300px;
+}
+.parallax::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-: brightness(.8);
+    filter: brightness(.8);
+}
+/*parallax*/
+
+/*social*/
+.fab {
+  padding: 15px;
+  font-size: 35px;
+  width: 63px;
+  height: 63px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook:hover{
+  background: white;
+  color: #3B5998;
+  transition: all ease .7s;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover{
+  background: white;
+  color: #55ACEE;
+  transition: all ease .7s;
+}
+div.contenido h4{
+    padding-top: 10px;
+    color: #dbdbdb;
+    font-family: 'Artifika', serif;
+    font-size: 20px;
+}
+div.contenido p{
+    color: #dbdbdb;
+    font-family: 'Artifika', serif;
+    text-align: center;
+}
+div.contenido hr{
+    width: 300px;
+    height: 1px;
+}
+/*social*/
+
+/*mapas*/
+div.mapas h4{
+    text-align: center;
+    font-family: 'Artifika', serif;
+}
+@media screen and (max-width: 900px) {
+    div.pais{
+      display: none;
+    }
+}
+/*mapas*/
+
+/*servicios*/
+div.servicios h5{
+  padding-top: 10px;
+}
+div.servicios div div div{
+  background-color: #bcbcbc;
+  height: 125px;
+}
+div.servicios div div img:hover{
+  transition: all ease .5s;
+  transform: scale(1.5, 1.5);
+  overflow: hidden;
+}
+@media screen and (max-width: 1100px) {
+  div.servicios div div div{
+    background-color: #bcbcbc;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 850px) {
+  div.servicios div div div{
+    background-color: #bcbcbc;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 639px) {
+  div.servicios div div div{
+    background-color: #bcbcbc;
+    height: 112px;
+  }
+}
+div.servicios div div div h5, div.servicios div div div p{
+  padding: 5px 10px 0px 10px;
+}
+/*servicios*/
+
+/*galeria*/
+div.galeria section h4{
+  text-align: center;
+  font-family: 'Artifika', serif;
+}
+ul.lista li{
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+div.img-galeria{
+    position: relative;
+    overflow:hidden;
+}
+div.img-galeria img{
+    max-width: 100%;
+    filter: grey;
+    -webkit-filter:grayscale(1);
+    -webkit-transition:all .5s ease-in-out; 
+}
+div.img-galeria:hover img{
+    -webkit-filter:grayscale(0);
+    -webkit-transform: scale(1.1);
+}
+div.img-galeria p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 20px;
+    margin: 0;
+    background-color: rgba(0,0,0,0.55);
+    width: 100%;
+    font-family: 'Artifika', serif;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transition:all .5s ease-in-out; 
+}
+div.img-galeria:hover p{
+    bottom: -80px;
+    opacity: 0;
+}
+/*galeria*/
+
+/*contacto*/
+div input[type="submit"].boton{
+  background-color: #e83541;
+  color: white
+}
+div input[type="submit"].boton:hover{
+  background-color: transparent;
+  border: 1px solid #e83541;
+  color: #e83541;
+}
+.contacto input{
+  color : #999;
+  background : none;
+  outline : none;
+  font-size : 1em;
+  padding : 0.8em 1em;
+  /*margin-bottom : 2em;*/
+  border : none;
+  border-bottom : 2px solid #999;
+  display : inline-block;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+input[type="file"] {
+    display: none;
+}
+.file{
+  border: 2px solid #999;
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+}
+.file:hover{
+  background-color: #999;
+  transition: all ease .4s;
+}
+div.archivo{
+  padding: 20px 0px 0px 0px; 
+}
+@media screen and (max-width: 1023px) {
+  div.archivo{
+    padding: 0px 0px 20px 0px; 
+  }
+}
+div#especifica-material{
+  display: none;
+}
+/*contacto*/
+
+/*pedidos*/
+div.pedidos{
+  border: 1px solid #232323;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  div.pedidos .descripcion{
+    text-align: left;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 670px) {
+  div.datos_usuario{
+    text-align: left;
+    font-size: 14px;
+  }
+}
+div.pedidos .descargar{
+  background-color: #e83541;
+  color: white
+}
+div.pedidos .descargar:hover{
+  background-color: transparent;
+  border: 1px solid #e83541;
+  color: #e83541;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+@media screen and (max-width: 800px) {
+  .modal-content {
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+}
+@media screen and (max-width: 700px) {
+  .modal-content {
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+}
+@media screen and (max-width: 400px) {
+  .modal-content {
+    width: 95%; /* Could be more or less, depending on screen size */
+  }
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*pedidos*/
+
+/*login*/
+div.login div input{
+  float: right;
+}
+/*login*/
+
+/*pedidos*/
+div.pedidos li:nth-child(1){
+  text-transform: uppercase;
+}
+div.pedidos li{
+  display: inline-block;
+  list-style: none;
+}
+div.pedidos li:nth-child(2){
+  float: right;
+}
+#input{
+  display: none;
+}
+@media screen and (max-width: 1025px) {
+  input#guardar {
+    margin-top: 15px;
+  }
+}
+/*pedidos*/
+
+/*body*/
+
+/*footer*/
+div.footer{
+    padding : 5px 0;
+    color: white;
+    text-align : center;
+    background : #232323;
+}
+div.footer h5{
+    font-family: 'Artifika', serif;
+}
+div.footer p{
+  color: white;
+}
+div.footer h5 span{
+    color: #e83541;
+}
+div.footer div{
+    padding-top: 5px;
+}
+div.sobre-vazda{
+    text-align: justify;
+    font-size: 13px;
+}
+div.sobre-vazda span{
+    font-size: 18px;
+    font-family: 'Artifika', serif;
+}
+div.telefonos p{
+    font-size: 14px;
+    text-align: center;
+}
+div.social-footer p{
+  text-align: center;
+}
+div.social-footer a{
+    color: white;
+}
+div.social-footer a:hover{
+    color: #e83541;
+    transition: all ease .5s;
+}
+div.vazda{
+    background-color: #191918;
+}
+div.vazda p{
+    text-align: center;
+}
+
+/*footer*/
