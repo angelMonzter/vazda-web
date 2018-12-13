@@ -21,9 +21,9 @@
        		$id = $mostrar["usuario_id"];
     	}
 		
-		header("Location:/vazda-web-v3/pedidos.php");
+		header("Location:/vazda-web-v2/pedidos.php");
  	}else{
- 		header("location:/vazda-web-v3/login.php");
+ 		header("location:/vazda-web-v2/login.php");
  	}
  	
  	mysqli_free_result($resultado);

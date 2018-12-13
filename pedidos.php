@@ -25,7 +25,7 @@
 	<!--pedidos-->
 	<div class="pedidos">
 	<br>
-    <h2 class="row wow fadeInDown animated" data-wow-delay=".3s">Pedidos</h2>
+    <h2 class="row wow fadeInDown animated" data-wow-delay=".3s">Usuarios</h2>
     <hr>
     <br>
 
@@ -37,6 +37,7 @@
                 <a data-tooltip tabindex="1" title="Cerrar Sesion" data-position="top" data-alignment="center" title="Cerrar Sesion" class="button small hollow alert" href="php/cerrar-sesion.php"><i class="fas fa-backspace"></i></a>
                 <!-- Trigger/Open The Modal -->
                 <a data-tooltip tabindex="1" title="Nuevo Administrador" data-position="top" data-alignment="center" id="myBtn" class="button small hollow"><i class="fas fa-users"></i></a>
+                <a href="usuarios.php" data-tooltip tabindex="1" title="Administradores" data-position="top" data-alignment="center" class="button small hollow success"><i class="fas fa-users-cog"></i></a>
             </li>
         </div>
     </div>
@@ -44,7 +45,6 @@
 
     <!--tarjeta de pedidos-->
     <?php
-        $conexion = mysqli_connect("localhost", "root" ,"" , "vazdaweb");
         $sql = "SELECT * FROM pedidos";
         $result = mysqli_query($conexion, $sql);
         while ($mostrar = mysqli_fetch_array($result)) {

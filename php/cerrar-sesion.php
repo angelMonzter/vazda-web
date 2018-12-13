@@ -4,6 +4,6 @@
 
 	session_destroy();
 
-	header("Location:/vazda-web-v3/login.php")
+	header("Location:/vazda-web-v2/login.php")
 
  ?>

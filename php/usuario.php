@@ -33,4 +33,33 @@ if (isset($_POST['agregar-usuario'])) {
 
 	die(json_encode($respuesta));
 }
+
+if (isset($_POST['usuario_id'])) {
+
+	$usuario_id = $_POST['usuario_id'];
+
+	try {
+  		include_once "conexion.php";
+		$stmt = $conexion->prepare("DELETE FROM usuario WHERE usuario_id = ?");
+		$stmt->bind_param("i", $usuario_id);
+		$stmt->execute();
+		if ($stmt->affected_rows) {
+			$respuesta = array(
+				'respuesta' => 'exito',
+				'usuario_id' => $usuario_id
+			);
+			
+		}else{
+			$respuesta = array(
+				'respuesta' => 'error'
+			);
+		}
+	} catch (Exception $e) {
+		echo "error" . $e->getMessage;
+	}
+
+	die(json_encode($respuesta));
+}
+
+
 ?>

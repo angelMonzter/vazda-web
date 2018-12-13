@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Pagina web de vazada, empresa mexicana dedicada a trabajos industriales y selecciones de partes, Fabricación de Moldes y Troqueles, Elaboración de partes en 3D a partir de plano y piezas físicas para impresión en 3D, Dispositivos de control, Troquelado, Inyección de Plástico, Fabricación de máquinas semi y automáticas en perfil de aluminio.">
-    <meta name="keywords" content="Vazda,VAZDA,maquila,maquinado,maquinadora,maquiladora,maquiladora toluca,toluca,maquinado toluca,empres maquinadora,estado de mexico maquiladora, maquilas y maquinados">
+    <meta name="keywords" content="Vazda,VAZDA,maquila,maquinado,maquinadora,maquiladora,maquiladora toluca,toluca,maquinado toluca,empresa maquinadora,estado de mexico maquiladora, maquilas y maquinados,retrabajos,toldos,vazda industrial,maquinadora,maquiladora">
     <meta name="author" content="Angel Efren Albarran Velazquez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vazda | Home</title>

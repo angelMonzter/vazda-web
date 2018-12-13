@@ -21,7 +21,7 @@ mail($para, $asunto, utf8_decode($c_mensaje), $header);
 ?>
 <body>
 		<script type="text/javascript">
-		window.location="/vazda-web-v3/contacto.php";
+		window.location="/vazda-web-v2/contacto.php";
 		alert("Mensaje Enviado");
 		</script>
 </body>
