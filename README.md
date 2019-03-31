@@ -9,7 +9,7 @@ Esta web fue desarrollada con el fin de dar publicidad y contar con una area de 
 ## Desarrollado con
 
 * [Foundation](https://foundation.zurb.com/) - Framework usado
-* [Html, Css, JavaScript].
+* [Html, Css, JavaScript, PHP].
 
 ## Autor
 
